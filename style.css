@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Monospaced, monospace;
     margin: 0;
     padding: 0;
     background-color: #4f4f4f;
@@ -40,21 +40,20 @@ main {
     width: 100%;
 }
 
-.playlist,
-.video-player {
+.list {
     display: block;
     text-align: center;
 }
 
-.playlist h2 {
+.list h2 {
     color: #fff;
 }
 
-.playlist ul {
+.list ul {
     list-style-type: decimal;
 }
 
-.playlist a {
+.list a {
     text-decoration: none;
     color: #ccc;
     padding: 10px;
@@ -65,36 +64,4 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-family: monospace;
-    font-size: 1rem;
-    border-radius: 10px 10px 0 0;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 10px;
-}
-
-.navbar a:hover {
-    background: #f1f1f1;
-    color: black;
-}
-
-.navbar a:active {
-    background: #04aa6d;
-    color: black;
 }
